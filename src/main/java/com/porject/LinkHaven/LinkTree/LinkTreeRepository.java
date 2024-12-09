@@ -1,4 +1,7 @@
 package com.porject.LinkHaven.LinkTree;
 
-public class LinkTreeRepository {
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface LinkTreeRepository extends JpaRepository<LinkTree,Long> {
+
 }
